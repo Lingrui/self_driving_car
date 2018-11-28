@@ -1,12 +1,12 @@
 # Self Driving Car
 
-##Overview
+## Overview
 
 This repository is a toolkit to take a try on semantic segmentation
 task, we choose Cityscape dataset as example and simplified the traning
 categories to show how it works. 
 
-##Build the docker image
+## Build the docker image
 ```
 cd docker
 make
@@ -18,7 +18,7 @@ To check if the docker image have successful built
 docker image | grep aicampus
 ```
 
-##Data preparation
+## Data preparation
 Assume you have already downloaded the following Cityscape datasets and
 unzipped them at current directory(path_to/self_driving_car/).
 - gtFine_trainvaltest.zip (241MB)
@@ -53,12 +53,12 @@ including person, rider
 Double check if there is a file called "class_dict.csv" in downsized
 output dataset
 
-##Model training
+## Model training
 ```
 ./train_demo.sh
 ```
 
-##Make prediction 
+## Make prediction 
 ```
 ./predict_demo.sh
 ```
