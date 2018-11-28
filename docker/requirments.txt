@@ -1,0 +1,7 @@
+matplotlib
+numpy>=1.13.0
+scipy 
+sklearn 
+opencv-python
+pandas
+

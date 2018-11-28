@@ -1,0 +1,26 @@
+#!/bin/bash
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model FC-DenseNet56 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model FC-DenseNet67 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model FC-DenseNet103 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model RefineNet-Res50 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model RefineNet-Res101 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model RefineNet-Res152 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model FRRN-A 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model Encoder-Decoder 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model Encoder-Decoder-Skip 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model MobileFCN 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model MobileUNet 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model MobileUNet-Add 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model PSPNet-Res50 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model PSPNet-Res101 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model PSPNet-Res152 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model GCN-Res50 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model GCN-Res101 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model GCN-Res152 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model DeepLabV3-Res50 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model DeepLabV3-Res101 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model DeepLabV3-Res152 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model DeepLabV3_plus-Res50 
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model DeepLabV3_plus-Res101
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model DeepLabV3_plus-Res152
+./main_inference.py --mode inference --crop_height 320 --crop_width 640 --model AdapNet 
