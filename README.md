@@ -26,11 +26,12 @@ unzipped them at current directory(path_to/self_driving_car/).
 
 All the data should be arranged in a certain folder in following
 structure:
-|── self_driving_car
-|   ├── docker
-|   ├── gtFine
-|   ├── leftImg8bit
-
+```
+ |── self_driving_car
+ |   ├── docker
+ |   ├── gtFine
+ |   ├── leftImg8bit
+```
 We choose some of the labels in the original dataset and merge them into
 3 main categories to run the test 
 
