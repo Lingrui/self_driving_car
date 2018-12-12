@@ -67,7 +67,9 @@ output dataset
 ## Make video prediction 
 Download videos(leftImg8bit_demoVideo.zip (6.6GB)) from
 https://www.cityscapes-dataset.com/downloads/
+
 Unzip the file and copy one video to ./data/cityscape/
+
 You need to modify the video filename in run_predict_video.sh from
 "videos-sample.mov" to your selected one and run:
 ```
